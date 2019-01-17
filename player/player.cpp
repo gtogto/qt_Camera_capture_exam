@@ -245,7 +245,7 @@ void Player::addToPlaylist(const QList<QUrl> &urls)
 
 void Player::setCustomAudioRole(const QString &role)
 {
-    m_player->setCustomAudioRole(role);
+    //m_player->setCustomAudioRole(role);
 }
 
 void Player::durationChanged(qint64 duration)
